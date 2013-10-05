@@ -2,7 +2,9 @@
 
 Pair project submitted by Liz Glavin and Beth Tenorio
 
+
 Apollo Assignment: Designing a Blog Data Model
+
 
 We need to store the following pieces of information:
 
