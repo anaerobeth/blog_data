@@ -2,6 +2,8 @@ require 'spec_helper'
 
 
 describe Author do
+
+  it { should have_many(:blog_entries) }
   it { should have_valid(:first_name).when('Beth') }
   it { should_not have_valid(:first_name).when(nil, '') }
 
@@ -10,7 +12,5 @@ describe Author do
 
   it { should have_valid(:email).when('beth@gmail.com') }
   it { should_not have_valid(:email).when(nil, '') }
-
-
 
 end

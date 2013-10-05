@@ -25,9 +25,9 @@ ActiveRecord::Schema.define(version: 20130911220614) do
   end
 
   create_table "blog_entries", force: true do |t|
-    t.string   "title"
-    t.text     "body"
-    t.integer  "author_id"
+    t.string   "title",       null: false
+    t.text     "body",        null: false
+    t.integer  "author_id",   null: false
     t.datetime "created_at"
     t.datetime "updated_at"
     t.integer  "category_id"
@@ -40,8 +40,8 @@ ActiveRecord::Schema.define(version: 20130911220614) do
   end
 
   create_table "comments", force: true do |t|
-    t.text     "body",       null: false
-    t.integer  "blog_id",    null: false
+    t.text     "body",          null: false
+    t.integer  "blog_entry_id", null: false
     t.datetime "created_at"
     t.datetime "updated_at"
   end
