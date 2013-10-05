@@ -1,28 +1,18 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Pair project submitted by Liz Glavin and Beth Tenorio
 
-Things you may want to cover:
+## Apollo Assignment: Designing a Blog Data Model
 
-* Ruby version
+We need to store the following pieces of information:
 
-* System dependencies
+An author including their contact information
+* A blog entry
+* A comment
+* A category
 
-* Configuration
+Model the data that is important to each item, one model at a time. Think about typical blog systems and what you might want to store as part of blogging software.
 
-* Database creation
+* Ruby version: 2.0
+* Rails version: 4.0
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
